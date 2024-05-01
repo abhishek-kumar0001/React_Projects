@@ -1,0 +1,31 @@
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+
+    &>.btnContainer{
+        margin-top: 20px;
+        &>button{
+            margin-right: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;            
+        }
+    }
+
+    &>.details{
+        color: #ffffff;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+    }
+
+
+}
