@@ -1,0 +1,15 @@
+:root{
+    --primary-color--:#069379;
+    --secondary-color--:#ffffff;
+    --card-color--:#85f0dc;
+    --accent-color--:#0625f3;
+}
+
+body{
+    background-color: var(--primary-color--);
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
