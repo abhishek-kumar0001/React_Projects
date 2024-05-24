@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css"
+import "./App.css";
 import Grid from "./Components/Grid/Grid";
 
 function App() {
@@ -11,3 +11,4 @@ function App() {
 }
 
 export default App;
+

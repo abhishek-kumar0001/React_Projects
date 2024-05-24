@@ -1,0 +1,20 @@
+.person{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+
+.person img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.person .name{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.person .age{
+    font-size: 16px;
+    color: #444444;
+}

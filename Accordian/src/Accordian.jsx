@@ -18,7 +18,7 @@ function Accordian() {
     function handleMultiSelection(getCurrentId){
         let copyMultiSelected = [...multiSelected];
         const findIndexOfCurrentId = copyMultiSelected.indexOf(getCurrentId)
-        console.log(findIndexOfCurrentId);
+        console.log("curentIdfind",findIndexOfCurrentId);
         if(findIndexOfCurrentId === -1){
             copyMultiSelected.push(getCurrentId)
         }
